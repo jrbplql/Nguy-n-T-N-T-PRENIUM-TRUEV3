@@ -358,7 +358,7 @@ spawn(function()
 	wait(1);
 	((require(game.ReplicatedStorage.Notification)).new("<Color=Purple>[ Welcome " .. game.Players.LocalPlayer.DisplayName .. " ]<Color=/>")):Display();
 	wait(1);
-	((require(game.ReplicatedStorage.Notification)).new("<Color=Yellow>[ Nguyễn Tấn Đạt IOS Chào Tất Cả Chúng Mày ]<Color=/>")):Display();
+	((require(game.ReplicatedStorage.Notification)).new("<Color=Yellow>[ Tấn Đạt IOS Chào Tất Cả Chúng Mày ]<Color=/>")):Display();
 end);
 function CheckQuest()
 	MyLevel = (game:GetService("Players")).LocalPlayer.Data.Level.Value;
@@ -4571,7 +4571,7 @@ spawn(function()
 		end;
 	end);
 end);
-loadstring(game:HttpGet("https://raw.githubusercontent.com Nguyễn Tấn Đạt-Hub/FastAttackLoL/refs/heads/main/FastAttack.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/FastAttackLoL/refs/heads/main/FastAttack.lua"))()
 function Attack()
 	if not _G.Settings.Main["Auto Farm Fruit Mastery"] or (not _G.Settings.Main["Auto Farm Gun Mastery"]) then
 		if _G.Settings.Setting["Fast Attack"] then
